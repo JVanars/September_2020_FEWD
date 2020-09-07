@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+}
+
+.header-intro,
+.main-title,
+.sub-title {
+    padding-top: 2em;
+    text-align: center;
+}
+
+.main-content,
+.sub-content {
+    text-align: center;
+}
+
+/* items below should include in media query for larger screens */
+
+.main-navlink {
+    float: left;
+}
+
+.infolinks {
+    float: right;
+}
+
+.infolinks li {
+    padding-right: 1.5em;
+    float: left;
+}
+
+
+
+/* Clearfix for floats, included in media query */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

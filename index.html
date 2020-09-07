@@ -3,14 +3,51 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Jack Van Arsdall</title>
 
-        /*!--Link to CSS files-- */
+        <!-- Link to Bootstrap Core CSS -->
+        <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+
+        <!-- Links to Custom Fonts --> <!--REMINDER TO COMPLETE SECTION-->
+
+        <!-- Links to Custom CSS -->
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="styles.css">
         
     </head>
-    <body>
-        <h1>Hello World. I'm part of Code Louisville! Congrats on starting your programming journey!</h1>
+    <body id="page-top">
+        <nav id="mainNav"> <!--NEED TO LOOK AT AGAIN - BOOTSTRAP CLASSES NEED TO REVIEW-->
+            <div> <!--REMINDER will need to complete making this responsive to screen size in media query-->
+                <div class="main-navlink"> <!--Name and link to top of page-->
+                    <!--<button type="button" class="navbar-toggle collapsed"></button>-->
+                    <a href="#page-top">Jack Van Arsdall</a>
+                </div>
+
+                <div class="clearfix"> <!--possible class navbar-collapse collapse-->
+                    <ul class="infolinks">
+                        <li><a class="page-scroll" href="#about">About</a></li>
+                        <li><a class="page-scroll" href="#services">Services</a></li>
+                        <li><a class="page-scroll" href="#contact">Contact</a></li>
+                        <li><a class="page-scroll" href="#resume">Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav> <!--finish nav section then delete comment, need to flush out the fluid container, look into ::before and ::after to prevent collapse?-->
+        <header>
+            <div class="header-intro">
+                <h1>
+                    Hello, my name is Jack Van Arsdall.
+                </h1>
+                <p>
+                    I am an aspiring web developer and CPA. I am looking to venture into a career in technology and front-end development.
+                </p>
+                <a href="#about">Find Out More</a>
+            </div>
+        </header>
+        <h1 class="main-title">This portion is the main section h1 title and under construction.</h1> <!--REMINDER - LOOK INTO REMOVING THIS SECTION-->
+        <p class="main-content">This portion is the main section paragraph and under construction.</p>
+        <h2 class="sub-title">This portion will be the sub content h2 title and under construction.</h2>
+        <p class="sub-content">This portion is the sub content section paragraph and under construction.</p>
     </body>
 </html>
