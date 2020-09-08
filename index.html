@@ -1,53 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="String Info by instrument and technical info for ordering">
+    
         <title>Jack Van Arsdall</title>
-
-        <!-- Link to Bootstrap Core CSS -->
-        <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
-
-        <!-- Links to Custom Fonts --> <!--REMINDER TO COMPLETE SECTION-->
-
-        <!-- Links to Custom CSS -->
+    
+        <!-- Bootstrap 4.5.2 core CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="styles.css">
-        
+        <!-- <link href="https://fonts.googleapis.com/css?family=Audiowide|Josefin+Sans" rel="stylesheet">
+        <script src="https://use.fontawesome.com/fad6b0e856.js"></script> --> <!--NEED TO FIND BETTER CUSTOM FONTS-->
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]--> 
     </head>
     <body id="page-top">
-        <nav id="mainNav"> <!--NEED TO LOOK AT AGAIN - BOOTSTRAP CLASSES NEED TO REVIEW-->
-            <div> <!--REMINDER will need to complete making this responsive to screen size in media query-->
-                <div class="main-navlink"> <!--Name and link to top of page-->
-                    <!--<button type="button" class="navbar-toggle collapsed"></button>-->
-                    <a href="#page-top">Jack Van Arsdall</a>
-                </div>
-
-                <div class="clearfix"> <!--possible class navbar-collapse collapse-->
-                    <ul class="infolinks">
-                        <li><a class="page-scroll" href="#about">About</a></li>
-                        <li><a class="page-scroll" href="#services">Services</a></li>
-                        <li><a class="page-scroll" href="#contact">Contact</a></li>
-                        <li><a class="page-scroll" href="#resume">Resume</a></li>
-                    </ul>
-                </div>
+          <!-- Navbar -->
+    
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a href="#page-top" class="navbar-brand">Jack Van Arsdall</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar7">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-stretch" id="navbar7">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                </ul>
             </div>
+        </nav>
 
-        </nav> <!--finish nav section then delete comment, need to flush out the fluid container, look into ::before and ::after to prevent collapse?-->
-        <header>
-            <div class="header-intro">
-                <h1>
-                    Hello, my name is Jack Van Arsdall.
-                </h1>
-                <p>
-                    I am an aspiring web developer and CPA. I am looking to venture into a career in technology and front-end development.
-                </p>
-                <a href="#about">Find Out More</a>
-            </div>
-        </header>
-        <h1 class="main-title">This portion is the main section h1 title and under construction.</h1> <!--REMINDER - LOOK INTO REMOVING THIS SECTION-->
-        <p class="main-content">This portion is the main section paragraph and under construction.</p>
-        <h2 class="sub-title">This portion will be the sub content h2 title and under construction.</h2>
-        <p class="sub-content">This portion is the sub content section paragraph and under construction.</p>
+        <div>
+            <header>
+                <div class="header-content">
+                    <div class="header-content-inner">
+                        <h1 class="header-content-title">
+                            Hello, my name is Jack Van Arsdall.
+                        </h1>
+                        <p>
+                            I am an aspiring web developer and CPA who is looking to begin a career in technology and front-end development. <!--NEED TO HAVE FONT JUMP LINE SOONER AND NOT FULLY EXPAND-->
+                        </p>
+                    </div>
+                </div>
+            </header>
+            <section class="bg-primary" id="about">
+                <div class="bg-primary-content">
+                    <div class="bg-primary-content-inner">
+                        <h2 class="bg-primary-content-title">About Me</h2> 
+                        <p>
+                            I have a master's degree in Accounting from the University of Kentucky and CPA licenses in Kentucky and Ohio. As a technology enthusiast, I am venturing into a career in front-end development beginning with participating in the Code Louisville program.<!--NEED TO HAVE FONT JUMP LINE SOONER AND NOT FULLY EXPAND-->
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
     </body>
 </html>

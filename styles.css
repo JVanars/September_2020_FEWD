@@ -2,36 +2,34 @@ ul {
     list-style-type: none;
 }
 
-.header-intro,
-.main-title,
-.sub-title {
-    padding-top: 2em;
+.header-content,
+.bg-primary-content {
     text-align: center;
+    padding: 2.5em 7.5em 2.5em 7.5em;
 }
 
-.main-content,
-.sub-content {
-    text-align: center;
+
+
+.header-content {
+
+    background: rgb(238, 101, 4); /*PLACEHOLDER COLOR - NEED TO CHANGE TO AN IMAGE BACKGROUND*/
+    font-size: 1.75em;
 }
+
+.header-content-title {
+    font-size: 3em;
+}
+
+.bg-primary-content {
+
+    background: rgb(6, 70, 190);
+    font-size: 1.75em;
+}
+
 
 /* items below should include in media query for larger screens */
 
-.main-navlink {
-    float: left;
-}
-
-.infolinks {
-    float: right;
-}
-
-.infolinks li {
-    padding-right: 1.5em;
-    float: left;
-}
-
-
-
-/* Clearfix for floats, included in media query */
+/* Clearfix for floats, included in media query  */ /*QUESTION TO SELF - DO I EVEN NEED THIS WITH BOOTSTRAP 4?*/
 .clearfix::after {
     content: "";
     display: table;
