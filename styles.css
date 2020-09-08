@@ -1,11 +1,14 @@
-ul {
-    list-style-type: none;
+.jumbotron {
+    background-color: burlywood;
+}
+
+body {
+    background-color: palegreen;
 }
 
 .header-content,
 .bg-primary-content {
     text-align: center;
-    padding: 2.5em 7.5em 2.5em 7.5em;
 }
 
 
@@ -28,6 +31,30 @@ ul {
 
 
 /* items below should include in media query for larger screens */
+
+/* Media Query------------------------------------ */
+
+@media (min-width: 1080px) {        
+    #jumbotron, #secondary {
+        max-width: 1200px;         /*CONSIDERATION - should I include a max-height?*/
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Clearfix for floats, included in media query  */ /*QUESTION TO SELF - DO I EVEN NEED THIS WITH BOOTSTRAP 4?*/
 .clearfix::after {
